@@ -1,1 +1,1 @@
-# sign-up-form
+This project gave me a great excuse to flex some intermediate CSS with unique fonts, icons, background images, gradients, box shadows, relative sizing and basic form styles. This also gave me a chance to play around with validation techniques and more complicated html structures, and now it's onwards to working on mobile-compatibility!
