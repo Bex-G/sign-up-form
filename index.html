@@ -12,8 +12,10 @@
             <p id="name">SpecialTea</p>
         </div>
         <div class="citation">
-            <p>Photo by Aniketh Kanukurthi on <a href="https://unsplash.com/photos/Qaor6nxikUM">Unsplash</a>
-            | Teacup icon created by Made by Made on <a href="https://www.flaticon.com/free-icons/teacup">Flaticon</a></p>
+            <ul>
+                <li>Photo by Aniketh Kanukurthi on <a href="https://unsplash.com/photos/Qaor6nxikUM">Unsplash</a></li>
+                <li>Teacup icon created by Made by Made on <a href="https://www.flaticon.com/free-icon/teacup_1616244">Flaticon</a></li>
+            </ul>
         </div>
     </div>
     <div class="right-side">
@@ -23,8 +25,8 @@
             and no cups of tea...</p>
         <p class="cta">but that's okay, becuase doing nothing is our <i>specialty.</i></p>
     </div>
-    <div class="form-body">
     <form action="get">
+    <div class="form-body">
         <legend>Let's do this!</legend>
 
         <div style="float: left;">
@@ -34,7 +36,7 @@
 
         <div style="float: left;">
         <label for="last-name">LAST NAME</label>
-        <input type="text" name="last-name" id="last-name">
+        <input type="text" name="last-name" id="last-name" pattern="([\w'-]+)">
         </div>
 
         <div style="float: left;">
@@ -44,7 +46,7 @@
 
         <div style="float: left;">
         <label for="phone-number">PHONE NUMBER</label>
-        <input type="tel" name="phone-number" id="phone-number">
+        <input type="tel" name="phone-number" id="phone-number" pattern="/^(?:\d{3}|\(\d{3}\))([-\/\.])\d{3}\1\d{4}$/">
         </div>
 
         <div style="float: left;">
@@ -56,12 +58,12 @@
         <label for="confirm-password">CONFIRM PASSWORD</label>
         <input type="password" name="confirm-password" id="confirm-password">
         </div>
-    </form>
     </div>
     <div class="form-footer">
         <button type="submit">Create Account</button>
         <p>Already have an account? <a href="https://en.wikipedia.org/wiki/Tea">Log in</a></p>
     </div>
+    </form>
     </div>
 </body>
 </html>
